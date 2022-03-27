@@ -1,0 +1,61 @@
+/* body{
+    border-style: solid;
+    border-width: 5px;
+} */
+
+div.main{
+    position: absolute;
+    left: 30px;
+    /* border-style: solid;
+    border-width: 2px; */
+    
+}
+
+div.position1{
+    position: absolute;
+    top: 80px;
+    /* left: 30px; */
+    /* margin: 0px 30px; */
+}
+
+div.position2{
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    /* margin: 0px 30px; */
+}
+
+div.position3{
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    /* margin: 0px 30px; */
+}
+
+div.position4{
+    position: absolute;
+    top: 97px;
+    left: 540px;
+    /* margin: 0px 30px; */
+}
+.student-list{
+    position: absolute;
+    top: 120px;
+}
+
+table{
+    width: 622px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    padding: 10px;
+}
+
+#stastics{
+    position: relative;
+   
+}

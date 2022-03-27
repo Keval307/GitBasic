@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Assignment</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body id="body">
+    <div class="main">
+        <h1>Student Application</h1>
+        
+            <form onsubmit="addValue()">
+                <div class="position1">
+                    <label for="name"><b>Name</b></label><br>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="position2">
+                    <label for="city"><b>City</b></label><br>
+                    <input type="text" id="city" name="city">
+                </div>
+                <div class="position3">
+                    <label for="fees"><b>Fees</b></label><br>
+                    <input type="text" id="fees" name="fees">
+                </div>
+                <div class="position4">
+                    <!-- <button id="myBtn">Add / Save</button> -->
+                    <input id="myBtn" type="submit" value="Add / Save" >
+                </div>
+            </form>
+        <div class="student-list">
+            <h1>Student List</h1>
+                <table id="table" >
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Fees</th>
+                    <th>Action</th>
+                </tr>
+            </table>
+            <div id="stastics">
+                <h1>Stastics</h1>
+            </div>
+        </div>
+       
+        
+    </div>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
